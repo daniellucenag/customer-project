@@ -30,12 +30,14 @@ namespace CustomerProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //Add MySQL Connection to Project
+            //Add MySQL connection to project
             services.AddDbContext<ApplicationDBContext>(options => options.UseMySql(Configuration.GetConnectionString("MySQLConnection")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            //Dependency injection
             services.AddSingleton<ICustomerServices, CustomerServices>();
+            services.AddScoped<ICustomerDBServices, CustomerDBServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

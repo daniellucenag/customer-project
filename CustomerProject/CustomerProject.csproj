@@ -26,7 +26,4 @@
     <Folder Include="Infrastructure\Persistence\" />
     <Folder Include="Infrastructure\Persistence\MySQL\" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Core\Component\Dictionary.cs" />
-  </ItemGroup>
 </Project>

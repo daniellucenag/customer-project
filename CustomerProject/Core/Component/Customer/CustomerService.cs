@@ -4,11 +4,11 @@ using CustomerProject.Infrastructure.Persistence.MySQL;
 
 namespace CustomerProject.Core.Component.Customer
 {
-    public class CustomerDBServices : ICustomerDBServices
+    public class CustomerService : ICustomerService
     {
         private readonly ApplicationDBContext _dbContext;
 
-        public CustomerDBServices(ApplicationDBContext dbContext)
+        public CustomerService(ApplicationDBContext dbContext)
         {
             _dbContext = dbContext;
         }

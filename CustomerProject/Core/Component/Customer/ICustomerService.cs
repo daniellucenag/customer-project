@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerProject
 {
-    public interface ICustomerDBServices
+    public interface ICustomerService
     {
         Customer Save(Customer customer);
         List<Customer> Get();

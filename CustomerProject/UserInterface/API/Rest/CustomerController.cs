@@ -10,9 +10,9 @@ namespace CustomerProject.UserInterface.API.Rest
     [Route("/UserInterface/API/Rest/[controller]")]
     public class CustomerController : ControllerBase
     {
-        private readonly ICustomerDBServices _services;
+        private readonly ICustomerService _services;
 
-        public CustomerController(ICustomerDBServices services)
+        public CustomerController(ICustomerService services)
         {
             _services = services;
         }

@@ -1,5 +1,5 @@
 ﻿using System;
-using CustomerProject.Core.Component;
+using CustomerProject.Core.Component.Customer;
 using Microsoft.EntityFrameworkCore;
 namespace CustomerProject.Infrastructure.Persistence.MySQL
 {

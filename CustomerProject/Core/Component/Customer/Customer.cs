@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace CustomerProject.Core.Component
+namespace CustomerProject.Core.Component.Customer
 {
     public class Customer
     {

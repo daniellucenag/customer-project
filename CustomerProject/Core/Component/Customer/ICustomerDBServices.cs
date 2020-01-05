@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using CustomerProject.Core.Component;
+using CustomerProject.Core.Component.Customer;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerProject

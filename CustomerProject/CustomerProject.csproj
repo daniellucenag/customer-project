@@ -27,4 +27,10 @@
     <Folder Include="Infrastructure\Persistence\MySQL\" />
     <Folder Include="Core\Component\Customer\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Core\Component\Dictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Core\Component\readme.md" />
+  </ItemGroup>
 </Project>

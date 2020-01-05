@@ -2,7 +2,7 @@
 using System.Linq;
 using CustomerProject.Infrastructure.Persistence.MySQL;
 
-namespace CustomerProject.Core.Component
+namespace CustomerProject.Core.Component.Customer
 {
     public class CustomerDBServices : ICustomerDBServices
     {

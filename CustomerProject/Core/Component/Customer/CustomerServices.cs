@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CustomerProject.Core.Component
+namespace CustomerProject.Core.Component.Customer
 {
     public class CustomerServices : ICustomerServices
     {

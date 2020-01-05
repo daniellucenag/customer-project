@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using CustomerProject.Core.Component;
+using CustomerProject.Core.Component.Customer;
 
 namespace CustomerProject.UserInterface.API.Rest
 {

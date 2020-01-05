@@ -38,7 +38,6 @@ namespace CustomerProject.Core.Component.Customer
             if (!_customer.Equals(null))
             {
                 _customer.Name = customer.Name;
-                _customer.Email = customer.Email;
                 _dbContext.SaveChanges();
             }
 

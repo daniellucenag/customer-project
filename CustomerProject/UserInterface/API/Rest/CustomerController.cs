@@ -47,6 +47,6 @@ namespace CustomerProject.UserInterface.API.Rest
         {
             _services.Delete(id);
             return Ok();
-        } 
+        }
     }
 }

@@ -25,5 +25,6 @@
     <Folder Include="Core\Component\" />
     <Folder Include="Infrastructure\Persistence\" />
     <Folder Include="Infrastructure\Persistence\MySQL\" />
+    <Folder Include="Core\Component\Customer\" />
   </ItemGroup>
 </Project>

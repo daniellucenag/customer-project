@@ -27,7 +27,7 @@ namespace CustomerProject
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             //Dependency injection
-            services.AddSingleton<ICustomerServices, CustomerServices>();
+            //services.AddSingleton<ICustomerServices, CustomerServices>();
             services.AddScoped<ICustomerDBServices, CustomerDBServices>();
         }
 
